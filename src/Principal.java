@@ -11,6 +11,7 @@ public class Principal {
     
     Scanner scan = new Scanner(System.in);
     
+    
     System.out.print("Nome: ");
     carro.nome = scan.next();
     
@@ -30,7 +31,7 @@ public class Principal {
     carro.peso = scan.next();
     
             
- 
+    
     System.out.println("Nome:"+carro.nome);
     System.out.println("Marca:"+carro.marca);
     System.out.println("Cor:"+carro.cor);
