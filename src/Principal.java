@@ -11,9 +11,9 @@ public class Principal {
     
     Scanner scan = new Scanner(System.in);
     
-    
+    System.out.println("============ coleta de dados ============");
     System.out.print("Nome: ");
-    carro.nome = scan.next();
+    carro.setNome(scan.next());
     
     System.out.print("Marca: ");
     carro.marca = scan.next();
@@ -30,16 +30,7 @@ public class Principal {
     System.out.print("Peso: ");
     carro.peso = scan.next();
     
-            
-    
-    System.out.println("Nome:"+carro.nome);
-    System.out.println("Marca:"+carro.marca);
-    System.out.println("Cor:"+carro.cor);
-    System.out.println("Fabricacao:"+carro.fabricacao);
-    System.out.println("Largura:"+carro.largura);
-    System.out.println("Peso:" +carro.peso+"\n");
-    
-    System.out.print("Nome: ");
+     System.out.print("Nome: ");
     carro2.nome = scan.next();
     
     System.out.print("Marca: ");
@@ -57,6 +48,20 @@ public class Principal {
     System.out.print("Peso: ");
     carro2.peso = scan.next();
     
+    System.out.println("============ fim da coleta de dados ============");
+            
+    System.out.println("============ impressão dos dados ============");
+    
+    System.out.println("Nome:"+carro.nome);
+    System.out.println("Marca:"+carro.marca);
+    System.out.println("Cor:"+carro.cor);
+    System.out.println("Fabricacao:"+carro.fabricacao);
+    System.out.println("Largura:"+carro.largura);
+    System.out.println("Peso:" +carro.peso+"\n");
+    
+  
+    
+   
             
  
     System.out.println("Nome:"+carro2.nome);
@@ -65,5 +70,7 @@ public class Principal {
     System.out.println("Fabricacao:"+carro2.fabricacao);
     System.out.println("Largura:"+carro2.largura);
     System.out.println("Peso:" +carro2.peso+"\n");   
+    
+      System.out.println("============ fim da impressão dos dados ============");
   }
 }
